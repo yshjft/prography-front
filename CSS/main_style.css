@@ -1,0 +1,109 @@
+.main-contents{
+  background-color: white;
+  min-height: 100vh;
+  font-size: 40px;
+}
+
+.about{
+  color:black;
+  font-size:45px;
+  font-weight: normal;
+}
+
+.intro{
+  margin-bottom:7%;
+}
+.intro-1{
+  font-weight:bold;
+  font-size: 65px;
+}
+
+.intro-3{
+  font-weight: bold;
+  font-size: 45px;
+  text-align: center;
+  height:290px;
+}
+
+.html{
+  color:orangered;
+  font-size:45px;
+}
+
+.css{
+  color:#1E90FF;
+  font-size:45px;
+}
+
+.bootstrap{
+  color:purple;
+  font-size:45px;
+}
+
+.js{
+  color:gold;
+  font-size:45px;
+}
+
+.code_image{
+  width:90%;
+}
+
+.aboutHtml{
+  font-weight: bold;
+  font-size:65px;
+  color:orangered;
+}
+
+.aboutCss{
+  font-weight: bold;
+  font-size:65px;
+  color:#1E90FF;
+}
+
+.aboutBootStrap{
+  font-weight: bold;
+  font-size:65px;
+  color:purple;
+}
+
+.aboutJavaScript{
+  font-weight: bold;
+  font-size:65px;
+  color:gold;
+}
+
+.more{
+  background-color:#1E90FF;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color:white
+}
+
+.link_m:hover{
+  font-size:35px;
+}
+
+.image{
+  text-align:center;
+}
+
+.link-img:hover{
+  width: 250x;
+  height:250px;
+}
+
+.clock{
+  text-align: center;
+  font-weight: bold;
+  font-size: 120px;
+  height: 200px;
+  color:white;
+  background-color:black;
+}
+
+.clock:hover{
+  transition:color 1s ease-in;
+  color:gold;
+}

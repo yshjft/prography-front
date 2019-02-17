@@ -1,0 +1,36 @@
+.footer{
+  /* background-color:#1E90FF; */
+  width:100%;
+  color:white;
+  text-align:center;
+  padding-top:1%;
+  padding-bottom:1%;
+}
+
+.footer_top{
+  font-weight:bold;
+  font-size: 25px;
+  padding-bottom:0.5%;
+}
+
+.footer_middle{
+  padding-bottom:0.5%;
+}
+
+.footer_bottom{
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.link_s:hover{
+  font-size: 30px;
+}
+
+.gitCat{
+  display:inline-block;
+}
+
+.footer_bottom-text{
+  display: inline-block;
+}
