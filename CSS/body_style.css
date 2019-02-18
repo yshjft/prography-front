@@ -1,7 +1,11 @@
 body{
   background-color:#1E90FF;
   margin:0%;
+  height:100%;
   z-index: -200;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-position: center; */
 }
 
 a{
