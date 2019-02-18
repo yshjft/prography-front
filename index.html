@@ -6,11 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  <link rel="stylesheet" href="CSS/body_style.css">
-  <link rel="stylesheet" href="CSS/header_style.css">
-  <link rel="stylesheet" href="CSS/main_style.css">
-  <link rel="stylesheet" href="CSS/footer_style.css">
-  <link rel="stylesheet" href="CSS/grid_example.css">
+  <link rel="stylesheet" href="CSS/style.css">
   <title>Prography-Front</title>
 </head>
 <body>
@@ -162,14 +158,19 @@
           <div class="col-12 div_12">JavaScript</div>
         </div>
         <div class="row about">
-          <div class="col-12 div_12">이전에 자바스크립트 공부하던 중 시계 만드는 코드가 있기에 사용해 보았습니다</div>
+          <div class="col-12 div_12">이전에 자바스크립트 공부하던 중 시계 만드는 코드ㄴ가 있어 시계를 만들고 이를 응요하여 날짜까지
+            나올 수 있도록 하고 시간에 따라 background-color가 바뀌도록 하였습니다.
+          </div>
         </div>
       </div>
     </a>
     <br/>
 
-    <div class="container">
-      <div class="row clock">
+    <div class="container dnt">
+      <div class="row calender" id="calender">
+        <div class="col-12 div_12" id="calender_date">?/?</div>
+      </div>
+      <div class="row clock" id="clock">
         <div class="col-12 div_12" id="clock_time">00 : 00</div>
       </div>
     </div>
@@ -194,5 +195,5 @@
     </a>
   </footer>
 </body>
-<script src="clock.js"></script>
+<script src="date_time.js"></script>
 </html>

@@ -94,16 +94,27 @@
   height:250px;
 }
 
+.dnt{
+  color:white;
+  background-color:black;
+}
+
+.dnt:hover{
+  transition:color 1s ease-in;
+  color:gold;
+}
+
 .clock{
   text-align: center;
   font-weight: bold;
   font-size: 120px;
   height: 200px;
-  color:white;
-  background-color:black;
 }
 
-.clock:hover{
-  transition:color 1s ease-in;
-  color:gold;
+.calender{
+  font-weight:bold;
+  font-size: 30px;
 }
+
+
+
