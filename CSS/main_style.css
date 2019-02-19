@@ -1,12 +1,12 @@
 .main-contents{
   background-color: white;
   min-height: 100vh;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .about{
   color:black;
-  font-size:45px;
+  font-size:40px;
   font-weight: normal;
 }
 
@@ -74,7 +74,7 @@
 }
 
 .more{
-  background-color:#1E90FF;
+  background-color:#000080;
   font-weight: bold;
   font-size: 30px;
   text-align: center;
@@ -94,12 +94,12 @@
   height:250px;
 }
 
-.dnt{
+.DateAndTime{
   color:white;
   background-color:black;
 }
 
-.dnt:hover{
+.DateAndTime:hover{
   transition:color 1s ease-in;
   color:gold;
 }

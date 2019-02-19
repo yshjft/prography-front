@@ -1,6 +1,11 @@
 .GridSystemExample{
   font-weight: bold;
   text-align: center;
+  color:white;
+}
+
+.ex{
+  color:black;
 }
 
 .R{
