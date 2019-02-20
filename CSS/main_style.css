@@ -95,6 +95,7 @@
 }
 
 .DateAndTime{
+  transition: color 1s ease-out;
   color:white;
   background-color:black;
 }
