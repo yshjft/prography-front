@@ -45,8 +45,9 @@
   font-size:45px;
 }
 
-.code_image{
+.portfolio_image{
   width:90%;
+  text-align:center;
 }
 
 .aboutHtml{
@@ -115,4 +116,19 @@
 .calender{
   font-weight:bold;
   font-size: 30px;
+}
+
+.arrow{
+  position:fixed;
+  right: 4px;
+  font-size: 40px;
+  color:#000080;
+}
+
+.arrow_up{
+  bottom:260px;
+}
+
+.arrow_down{
+  bottom:200px;
 }
